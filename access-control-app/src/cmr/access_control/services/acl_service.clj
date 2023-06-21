@@ -257,7 +257,7 @@
      (concat catalog-item-permissions
              ingest-management-permissions))))
 
-(defn- add-acl-enforcement-fields
+(defn-timed add-acl-enforcement-fields
   "Adds all fields necessary for comparing concept map against ACLs."
   [context concept]
   (let [concept (acl-matchers/add-acl-enforcement-fields-to-concept context concept)]
