@@ -237,7 +237,7 @@
   [acl]
   (-> acl :provider-identity :target (= schema/ingest-management-acl-target)))
 
-(defn- concept-permissions-granted-by-acls
+(defn-timed concept-permissions-granted-by-acls
   "Returns the set of permission keywords (:read, :order, and :update) granted on concept
    to the seq of group guids by seq of acls."
   [concept sids acls]
@@ -267,7 +267,7 @@
                        context parent-collection))
       concept)))
 
-(defn add-parent-collection-to-concept
+(defn-timed add-parent-collection-to-concept
   [concept parent-concepts]
   (let [parent-id (get-in concept [:extra-fields :parent-collection-id])
         parent (first (filter #(= parent-id (:concept-id %)) parent-concepts))]
