@@ -300,7 +300,7 @@
                                         context index/provider-identity-type-name schema/ingest-management-acl-target)
                                        (acl-util/get-acl-concepts-by-identity-type-and-target
                                         context index/catalog-item-identity-type-name nil)))
-        concepts (mdb1/get-latest-concepts context (distinct concept-ids))
+        concepts (remove :deleted (mdb1/get-latest-concepts context (distinct concept-ids)))
         parent-concepts (mdb1/get-latest-concepts context (distinct (remove nil? (map #(get-in % [:extra-fields :parent-collection-id]) concepts))))
         concepts-with-parents (map #(add-parent-collection-to-concept % parent-concepts) concepts)]
 
