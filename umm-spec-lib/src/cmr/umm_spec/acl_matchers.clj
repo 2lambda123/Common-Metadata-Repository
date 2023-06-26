@@ -182,16 +182,15 @@
 
 (defmethod add-acl-enforcement-fields-to-concept :granule
   [context concept]
-  (let [start-time (System/currentTimeMillis)
-        concept (-> concept
-                    (u/lazy-assoc :access-value (legacy/parse-concept-access-value concept))
-                    (u/lazy-assoc :temporal (legacy/parse-concept-temporal concept))
-                    (assoc :collection-concept-id (get-in concept [:extra-fields :parent-collection-id])))
-        total-took (- (System/currentTimeMillis) start-time)]
-    (info (format "add-acl-enforcement-fields-to-concept for granule %s took %d ms."
-                  (:concept-id concept)
-                  total-took))
-    concept))
+  (let [deleted? (:deleted concept)]
+    (as-> concept concept
+          (if-not deleted?
+            (u/lazy-assoc concept :access-value (legacy/parse-concept-access-value concept))
+            concept)
+          (if-not deleted?
+            (u/lazy-assoc concept :temporal (legacy/parse-concept-temporal concept))
+            concept)
+          (assoc concept :collection-concept-id (get-in concept [:extra-fields :parent-collection-id])))))
 
 (defn add-acl-enforcement-fields
   "Adds the fields necessary to enforce ACLs to the concepts."
