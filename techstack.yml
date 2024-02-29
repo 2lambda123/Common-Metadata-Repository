@@ -1,0 +1,1040 @@
+repo_name: 2lambda123/Common-Metadata-Repository
+report_id: e132a57a8920ca6f46663c2031770b21
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:14:39+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 92
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: Clojure
+  description: A dynamic programming language that targets the Java Virtual Machine
+  website_url: http://clojure.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1003/Clojure_300x300.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/sample_catalog_rest_ddl.sql
+  detection_source: bootstrap-app/sample_catalog_rest_ddl.sql
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/Dockerfile
+  detection_source: browse-scaler/src/Dockerfile
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/graph/resources/docker/docker-compose.yml
+  detection_source: other/cmr-exchange/graph/resources/docker/docker-compose.yml
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 3.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.21.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: Cucumber
+  description: Simple, human collaboration.
+  website_url: https://cukes.info/
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2544/jasVAxyJ.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/system-validation-test/Gemfile.lock
+  detection_source: system-validation-test/cucumber.yml
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package.json
+  detection_source: browse-scaler/src/package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/.github/workflows/browse-scaler.yml
+  detection_source: ".github/workflows/browse-scaler.yml"
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/graph/resources/docker/docker-compose.yml
+  detection_source: other/cmr-exchange/graph/resources/docker/docker-compose.yml
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/tea-config-generator/requirements.txt
+  detection_source: tea-config-generator/requirements.txt
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/system-validation-test/Gemfile.lock
+  detection_source: system-validation-test/Gemfile
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/system-validation-test/Gemfile
+  detection_source: system-validation-test/Gemfile
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 11.1.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: Snyk
+  description: Automatically find &amp; fix vulnerabilities in your code, containers,
+    Kubernetes, and Terraform
+  website_url: https://snyk.io/
+  version: 1.1179.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5326/6p1SNAJu.jpg
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/graph-db/package-lock.json
+  detection_source: graph-db/.snyk
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/api-versioning/.travis.yml
+  detection_source: other/cmr-exchange/api-versioning/.travis.yml
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.86.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/graph-db/package-lock.json
+  detection_source: graph-db/package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/graph-db/package.json
+  detection_source: graph-db/package.json
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/tea-config-generator/requirements.txt
+  detection_source: tea-config-generator/requirements.txt
+- name: Serverless
+  description: The most widely-adopted toolkit for building serverless applications
+  website_url: https://github.com/serverless/serverless
+  version: 3.32.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/5095/serverless-logo.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/graph-db/package-lock.json
+  detection_source: graph-db/package.json
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/elastic-utils-lib/resources/elasticsearch.yml
+  detection_source: elastic-utils-lib/resources/elasticsearch.yml
+- name: Gremlin
+  website_url: https://github.com/tinkerpop/gremlin/wiki
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3561/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/graph-db/package.json
+  detection_source: graph-db/package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: graph-db/package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: buddy/buddy-sign
+  description: High level message signing for Clojure
+  package_url: https://clojars.org/buddy/buddy-sign
+  version: 3.4.333
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/authz/project.clj
+  detection_source: other/cmr-exchange/authz/project.clj
+- name: camel-snake-kebab
+  description: A library for word case conversions
+  package_url: https://clojars.org/camel-snake-kebab
+  version: 0.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: cheshire
+  description: JSON and JSON SMILE encoding, fast
+  package_url: https://clojars.org/cheshire
+  version: 5.10.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: clj-http
+  description: A Clojure HTTP library wrapping the Apache HttpComponents client
+  package_url: https://clojars.org/clj-http
+  version: 2.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: clj-time
+  description: A date and time library for Clojure, wrapping Joda Time
+  package_url: https://clojars.org/clj-time
+  version: 0.15.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: clojail
+  description: A sandboxing library
+  package_url: https://clojars.org/clojail
+  version: 1.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: clojusc/trifl
+  description: The Clojure utility library that dares not speaks its name
+  package_url: https://clojars.org/clojusc/trifl
+  version: 0.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/authz/project.clj
+  detection_source: other/cmr-exchange/authz/project.clj
+- name: com.draines/postal
+  description: JavaMail on Clojure
+  package_url: https://clojars.org/com.draines/postal
+  version: 2.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/ingest-app/project.clj
+  detection_source: ingest-app/project.clj
+- name: com.fasterxml.jackson.core/jackson-core
+  description: Core Jackson abstractions
+  package_url: https://clojars.org/com.fasterxml.jackson.core/jackson-core
+  version: 2.13.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: com.gfredericks/test.chuck
+  description: A dumping ground of test.check utilities
+  package_url: https://clojars.org/com.gfredericks/test.chuck
+  version: 0.2.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: com.stuartsierra/component
+  description: Managed lifecycle of stateful objects
+  package_url: https://clojars.org/com.stuartsierra/component
+  version: 0.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/authz/project.clj
+  detection_source: other/cmr-exchange/authz/project.clj
+- name: com.taoensso/timbre
+  description: Pure Clojure/Script logging library
+  package_url: https://clojars.org/com.taoensso/timbre
+  version: 5.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: compojure
+  description: A concise routing library for Ring
+  package_url: https://clojars.org/compojure
+  version: 1.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: crouton
+  description: A HTML parsing library
+  package_url: https://clojars.org/crouton
+  version: 0.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/system-int-test/project.clj
+  detection_source: system-int-test/project.clj
+- name: digest
+  description: Digest algorithms
+  package_url: https://clojars.org/digest
+  version: 1.4.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-app-lib/project.clj
+  detection_source: common-app-lib/project.clj
+- name: environ
+  description: Library for accessing environment variables
+  package_url: https://clojars.org/environ
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: gov.nasa.earthdata/cmr-http-kit
+  description: Utilities and wrappers for http-kit interop
+  package_url: https://clojars.org/gov.nasa.earthdata/cmr-http-kit
+  version: 0.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/authz/project.clj
+  detection_source: other/cmr-exchange/authz/project.clj
+- name: hiccup
+  description: A fast library for rendering HTML in Clojure
+  package_url: https://clojars.org/hiccup
+  version: 1.0.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: http-kit
+  description: High-performance event-driven HTTP client/server for Clojure
+  package_url: https://clojars.org/http-kit
+  version: 2.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/authz/project.clj
+  detection_source: other/cmr-exchange/authz/project.clj
+- name: inflections
+  description: Rails-like inflections for Clojure
+  package_url: https://clojars.org/inflections
+  version: 0.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: instaparse
+  description: 'Instaparse: No grammar left behind'
+  package_url: https://clojars.org/instaparse
+  version: 1.4.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: markdown-clj
+  description: Markdown parser
+  package_url: https://clojars.org/markdown-clj
+  version: 1.10.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/ingest-app/project.clj
+  detection_source: ingest-app/project.clj
+- name: metosin/ring-swagger
+  description: Swagger Spec for Ring Apps
+  package_url: https://clojars.org/metosin/ring-swagger
+  version: 0.22.14
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/search-app/project.clj
+  detection_source: search-app/project.clj
+- name: metosin/ring-swagger-ui
+  description: Swagger UI for Ring apps
+  package_url: https://clojars.org/metosin/ring-swagger-ui
+  version: 2.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/search-app/project.clj
+  detection_source: search-app/project.clj
+- name: net.mikera/core.matrix
+  description: N-dimensional array programming API for Clojure
+  package_url: https://clojars.org/net.mikera/core.matrix
+  version: 0.54.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/spatial-lib/project.clj
+  detection_source: spatial-lib/project.clj
+- name: net.mikera/vectorz-clj
+  description: Fast matrix and vector maths library for Clojure - as a pure JVM core.matrix
+    implementation
+  package_url: https://clojars.org/net.mikera/vectorz-clj
+  version: 0.28.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/spatial-lib/project.clj
+  detection_source: spatial-lib/project.clj
+- name: pjstadig/assertions
+  description: Zero penalty runtime assertions for Clojure
+  package_url: https://clojars.org/pjstadig/assertions
+  version: 0.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/spatial-lib/project.clj
+  detection_source: spatial-lib/project.clj
+- name: potemkin
+  description: Some useful facades
+  package_url: https://clojars.org/potemkin
+  version: 0.4.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/acl-lib/project.clj
+  detection_source: acl-lib/project.clj
+- name: primitive-math
+  description: Predictable, primitive math
+  package_url: https://clojars.org/primitive-math
+  version: 0.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/spatial-lib/project.clj
+  detection_source: spatial-lib/project.clj
+- name: prismatic/schema
+  description: Clojure
+  package_url: https://clojars.org/prismatic/schema
+  version: 1.1.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/search-app/project.clj
+  detection_source: search-app/project.clj
+- name: ring/ring-codec
+  description: Library for encoding and decoding data
+  package_url: https://clojars.org/ring/ring-codec
+  version: 1.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: ring/ring-core
+  description: Ring core libraries
+  package_url: https://clojars.org/ring/ring-core
+  version: 1.9.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: ring/ring-jetty-adapter
+  description: Ring Jetty adapter
+  package_url: https://clojars.org/ring/ring-jetty-adapter
+  version: 1.9.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-lib/project.clj
+  detection_source: common-lib/project.clj
+- name: ring/ring-json
+  description: Ring middleware for handling JSON
+  package_url: https://clojars.org/ring/ring-json
+  version: 0.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/bootstrap-app/project.clj
+  detection_source: bootstrap-app/project.clj
+- name: selmer
+  description: Django style templates for Clojure
+  package_url: https://clojars.org/selmer
+  version: 1.12.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/common-app-lib/project.clj
+  detection_source: common-app-lib/project.clj
+- name: sqlingvo
+  description: A Clojure DSL to create SQL statements
+  package_url: https://clojars.org/sqlingvo
+  version: 0.7.15
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/oracle-lib/project.clj
+  detection_source: oracle-lib/project.clj
+- name: tolitius/xml-in
+  description: Your friendly XML navigator
+  package_url: https://clojars.org/tolitius/xml-in
+  version: 0.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/clojars/image.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/other/cmr-exchange/authz/project.clj
+  detection_source: other/cmr-exchange/authz/project.clj
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.21.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: aws-sdk-mock
+  description: Functions to mock the JavaScript aws-sdk
+  package_url: https://www.npmjs.com/aws-sdk-mock
+  version: 5.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18255/default_315a767553036d5263c95420817fe68cd3885651.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 17.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 13.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: graph-db/package.json
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.24.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.26.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: jest-junit
+  description: A jest reporter that generates junit xml files
+  package_url: https://www.npmjs.com/jest-junit
+  version: 6.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.32.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/browse-scaler/src/package-lock.json
+  detection_source: browse-scaler/src/package.json
+- name: webpack-node-externals
+  description: Easily exclude node_modules in Webpack bundle
+  package_url: https://www.npmjs.com/webpack-node-externals
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16156/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/graph-db/package-lock.json
+  detection_source: graph-db/package.json
+- name: httparty
+  description: Makes http fun! Also
+  package_url: https://rubygems.org/httparty
+  version: 0.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18832/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/system-validation-test/Gemfile.lock
+  detection_source: system-validation-test/Gemfile
+- name: jsonpath
+  description: Ruby implementation of http://goessner.net/articles/JsonPath/
+  package_url: https://rubygems.org/jsonpath
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19415/default_dc6cadc1b45dd6b257be7a9989c340a091ae1a5f.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/system-validation-test/Gemfile.lock
+  detection_source: system-validation-test/Gemfile
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.14.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/system-validation-test/Gemfile.lock
+  detection_source: system-validation-test/Gemfile
+  vulnerabilities:
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.16.2
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/tea-config-generator/requirements.txt
+  detection_source: tea-config-generator/requirements.txt
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/2lambda123/Common-Metadata-Repository/blob/master/tea-config-generator/requirements.txt
+  detection_source: tea-config-generator/requirements.txt
